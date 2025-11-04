@@ -1,9 +1,69 @@
 <!DOCTYPE html>
 
 <html>
-    <head></head>
+    <head>
+        <title>GordonRoo Portfolio</title>
+        <link href="stylesReset.css" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+    </head>
 
     <body>
-        <h1>Portfolio</h1>
+        <header>
+            <nav id="navigations">
+                <ul>
+                    <li><a href="#aboutmeDir"><p>About Me</p></a></li>
+                    <li><a href="#projects"><p>Projects</p></a></li>
+                    <li><a href="#skills"><p>Skills</p></a></li>
+                    <li><a href="#"><p>Extra Skills</p></a></li>
+                    <li><a href="#"><p>Contact Me</p></a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h1 id="aboutmeDir">GordonRoo</h1>
+            <h2>My portfolio!</h2>
+
+            <img id="profile" src="images/profileicon.jpg" alt="Profile picture of GordonRoo">
+            
+            <h3>About Me</h3>
+            <section id="aboutme">
+                <p> Hello! I am Gordon, and I am a wonnabe software engineer who codes for fun.
+                    You might know me by my works in (insert thing) and (another thing).
+                </p>
+                <p> In my free time, I also draw and make music, and I take all sorts of commissions!
+                    (just joking, haha, please dont email me to draw something)
+                </p>
+                <p> But the main thing is - I love programming! And I create side projects in my free time, 
+                    of which you can check out some of them below!</p>
+                <p id="protime"> Did you know? <br> I've been programming for (js do your magic)!</p>
+            </section>
+
+            <h3>Projects</h3>
+            <section id="projects">
+                <div class="projectContainer">
+                    <h4>Project Name1</h4>
+                    <img src ="images/project1.JPG" alt="Project description" title="Extra info">
+                </div>
+                <div class="projectContainer">
+                    <h4>Project Name2</h4>
+                    <img src ="images/project1.JPG" alt="Project description" title="Extra info">
+                </div>
+                <div class="projectContainer">
+                    <h4>Project Name3</h4>
+                    <img src ="images/project1.JPG" alt="Project description" title="Extra info">
+                </div>
+            </section>
+
+            <h3>Skills</h3>
+            <section id="skills">
+                <div class="skillsContainer"><a href=""><img src="images/icons/c++.png" title="c++"></a></div>
+                <div class="skillsContainer"><a><img src="images/icons/css.png" title="css"></a></div>
+                <div class="skillsContainer"><a><img src="images/icons/html.png" title="html"></a></div>
+                <div class="skillsContainer"><a><img src="images/icons/js.png" title="javascript"></a></div>
+                <div class="skillsContainer"><a><img src="images/icons/python.png" title="python"></a></div>
+                <div class="skillsContainer"><a><img src="images/icons/github.png" title="github"></a></div>
+                <div class="skillsContainer"><a><img src="images/icons/minecraft.png" title="MINECRAFT!!!"></a></div>
+            </section>
+        </main>
     </body>
 </html>
