@@ -67,7 +67,7 @@ main {
 
 /*-for the content itself*/
 /*heading and subtitle*/
-h1 {
+main h1 {
     font-size: 102px;
     font-weight:700;
     letter-spacing: 10px;
@@ -111,7 +111,7 @@ h3 {
     margin: 10px 0;
     border-radius: 8px;
 }
-#aboutme {
+#extraSkills, #aboutme {
     margin-top: 5px;
     padding: 12px 20px;
     background-color: rgba(255, 255, 255, 0.8);
@@ -136,7 +136,7 @@ p {
     background-color: rgba(228, 179, 255, 0.5);
 }
 /*-Projects*/
-#projects {
+#extraProjects, #projects {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -149,11 +149,11 @@ p {
     background-color: rgb(229, 223, 240);
     padding: 10px;
     margin: 20px;
-    transition: 1s ease;
+    transition: 0.5s ease;
 }
 .projectContainer:hover {
     background-color: rgb(69, 218, 255);
-    transition: 1s ease;
+    transition: 0.5s ease;
 }
 .projectContainer h4 {
     font-size: 22px;
@@ -179,4 +179,38 @@ p {
 }
 .skillsContainer a img{
     width: 75px;
+}
+
+/*contact me page*/
+#contactme {
+    text-align: center;
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    padding: 25px;
+    margin: 50px auto;
+}
+
+#contactme h1 {
+    font-size: 24px;
+    font-weight:700;
+    letter-spacing: 10px;
+    color:white;
+    text-shadow: rgb(48, 44, 48) 2px 2px 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom: 5px;
+    background-color: rgba(128, 128, 128, 0.1);
+}
+
+#imglinks {
+    display: flex;
+    justify-content: space-around;
+}
+
+#imglinks a img{
+    width: 70px;
+    height: 70px;
 }
