@@ -110,7 +110,9 @@ h3 {
     background-color: rgba(84, 96, 100, 0.5);
     margin: 10px 0;
     border-radius: 8px;
+    transition: 0.5s ease;
 }
+
 #extraSkills, #aboutme {
     margin-top: 5px;
     padding: 12px 20px;
