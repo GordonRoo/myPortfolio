@@ -216,3 +216,15 @@ p {
     width: 70px;
     height: 70px;
 }
+
+/*responsive design*/
+
+@media only screen and (max-width: 500px) and (max-height: 1020px) {
+    main {
+        width: 80%;
+        height: 80%;
+    }
+    #navigations {
+        height: 50px;
+    }
+}
